@@ -9,17 +9,13 @@ lowerDisplay.innerHTML = lowerDisplayStr;
 document.addEventListener("keyup", e=>{
     tempKeyCode = returnKeyDown(e);
     if ((e.shiftKey && tempKeyCode == 187) || tempKeyCode== 107){ //+
-        tempKeyCode = 43;
-        clickOperatorBtn(String.fromCharCode(tempKeyCode));
+        clickOperatorBtn("+");
     }else if ((e.shiftKey && tempKeyCode == 189) || tempKeyCode== 109){ //-
-        tempKeyCode = 45;
-        clickOperatorBtn(String.fromCharCode(tempKeyCode));
+        clickOperatorBtn("-");
     }else if ((e.shiftKey && tempKeyCode == 56) || tempKeyCode== 106){ //*
-        tempKeyCode = 42
-        clickOperatorBtn(String.fromCharCode(tempKeyCode));
+        clickOperatorBtn("*");
     }else if ((tempKeyCode == 191) || tempKeyCode== 111){ // divide
-        tempKeyCode = 47
-        clickOperatorBtn(String.fromCharCode(tempKeyCode));
+        clickOperatorBtn("/");
     }else if(tempKeyCode == 27 ){ //esc
         clickClearButton();
     }else if(tempKeyCode == 8){ //backspace
