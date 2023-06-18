@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+}
+
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    align-items: stretch;
+
+    width: 500px;
+    height: 600px;
+}
+
+#calculatorDisplay{
+    display: flex;
+    flex-direction: column;
+
+
+    background-color: aquamarine;
+    align-self: stretch;
+    width: 500px;
+    height: 150px;
+}
+
+#upperDisplay{
+    height:30%;
+    
+    background-color: darkblue;
+    margin-inline: 10px;
+}
+#lowerDisplay{
+    
+    height:70%;
+    background-color: azure;
+    margin-inline: 10px;
+}
+
+#buttonGrid{
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
+    gap: 3px;
+    padding: 3px;
+}
+
+#clearBtn{
+    grid-column:span 2;
+}
+
+#equalBtn{
+    grid-column: span 2;
+}
