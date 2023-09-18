@@ -11,7 +11,7 @@ body{
 #calculator{
     display: flex;
     flex-direction: column;
-    background-color: rgb(165, 161, 161);
+    background-color: rgb( 48, 48, 48);
     align-items: center;
 
     padding:15px;
@@ -24,7 +24,7 @@ body{
     display: flex;
     flex-direction: column;
 
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(165, 161, 161);
     
     width: 500px;
     
@@ -87,28 +87,28 @@ button{
     text-align: center;
     font-size: 35px;
     border: 3px solid rgb(19, 16, 16);
-    background-color: rgb(59, 59, 61)
+    background-color: rgb(118, 118, 124)
 }
 button:hover{
     opacity: 80%;
 }
 
 .operatorBtn{
-    background-color: rgb(88, 88, 88);
-    border-color: rgba(134, 134, 134, 0.377);
+    background-color: rgb(207, 199, 199, 0.801);
+    border-color: rgba(163, 155, 155, 0.377);
 }
 
 #equalBtn{
-    background-color: rgb(88, 88, 88);
+    background-color: rgba(207, 199, 199, 0.801);
 }
 
 #clearBtn{
-    background-color: rgba(218, 85, 85, 0.685);
+    background-color: rgba(214, 139, 139, 0.685);
     border-color: rgb(163, 137, 137);
 }
 
 #undoBtn{
-    background-color: rgba(107, 136, 197, 0.685);
-    border-color: rgba(88, 153, 179, 0.377);
+    background-color: rgba(167, 185, 224, 0.678);
+    border-color: rgba(80, 116, 131, 0.377);
 }
 
